@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yiky84119/react-native-smart-barcode.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
 
-  spec.resource = 'ios/raw/beep.wav'
+  s.resource = 'ios/raw/beep.wav'
 
   s.dependency 'React'
 end
